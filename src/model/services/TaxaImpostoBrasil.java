@@ -1,6 +1,7 @@
 package model.services;
 
-public class TaxaImpostoBrasil {
+public class TaxaImpostoBrasil implements ServicoImposto {
+	@Override
 	public Double imposto(Double amount) {
 		if(amount <= 100.0) {
 			return amount * 0.2;
