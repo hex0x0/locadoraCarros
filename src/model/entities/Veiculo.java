@@ -6,6 +6,10 @@ public class Veiculo {
 	public Veiculo() {
 		
 	}
+	
+	public Veiculo(String modelo) {
+		this.modelo = modelo;
+	}
 
 	public String getModelo() {
 		return modelo;
